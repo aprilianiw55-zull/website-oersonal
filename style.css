@@ -1,0 +1,456 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5fff5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+/* Navbar */
+nav{
+
+    background:#1b5e20;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    justify-content:center;
+
+    list-style:none;
+
+}
+
+nav ul li a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:18px 25px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+nav ul li a:hover{
+
+    background:#66bb6a;
+
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Konten */
+main {
+    width: 85%;
+    margin: 40px auto;
+}
+
+.home {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.home h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Tombol */
+button{
+
+    background:#2e7d32;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#43a047;
+
+}
+
+/* Footer */
+<footer>
+
+    <h3>EduNews</h3>
+
+    <p>Portal Berita Edukasi & Pendidikan Indonesia</p>
+
+    <p>Email : edunews@email.com</p>
+
+    <p>&copy; 2026 EduNews. All Rights Reserved.</p>
+
+</footer>
+}
+
+/* Logo */
+
+.logo-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.logo-container img{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:white;
+
+    padding:5px;
+
+}
+
+.judul h1{
+
+    font-size:38px;
+
+}
+
+.judul p{
+
+    font-size:17px;
+
+}
+
+/* Judul Artikel */
+
+.judul-artikel{
+
+text-align:center;
+
+margin:40px 0;
+
+color:#2e7d32;
+
+font-size:36px;
+
+}
+
+/* Container */
+
+.artikel-container{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+/* Card */
+
+.card{
+    width:30%;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card img{
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+}
+
+.card h3{
+
+padding:20px 20px 10px;
+
+color:#2e7d32;
+
+min-height: 70px;
+
+line-height:1.4;
+
+}
+
+.card p{
+
+padding:0 20px 20px;
+
+text-align:justify;
+
+}
+
+.card button{
+
+margin:20px;
+
+}
+
+/* Halaman Artikel */
+
+.isi-artikel{
+
+    width:80%;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.isi-artikel img{
+
+    width:100%;
+
+    border-radius:10px;
+
+    margin-bottom:30px;
+
+}
+
+.isi-artikel h2{
+
+    color:#2e7d32;
+
+    margin-bottom:15px;
+
+}
+
+.penulis{
+
+    color:gray;
+
+    margin-bottom:30px;
+
+    font-style:italic;
+
+}
+
+.isi-artikel p{
+
+    text-align:justify;
+
+    margin-bottom:20px;
+
+}
+
+.judul-artikel{
+    text-align:center;
+    color:#2e7d32;
+    font-size:36px;
+    margin-top:20px;
+}
+
+.subjudul{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+/* ========================= */
+/* HALAMAN ARTIKEL LENGKAP */
+/* ========================= */
+
+.isi-artikel{
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.isi-artikel img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.isi-artikel h2{
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.penulis{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.isi-artikel p{
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.isi-artikel a{
+    text-decoration: none;
+}
+
+.isi-artikel button{
+    margin-top: 20px;
+}
+
+/* ========================= */
+/* HALAMAN TENTANG */
+/* ========================= */
+
+.tentang{
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tentang h2{
+    color: #2e7d32;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tentang h3{
+    color: #388e3c;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.tentang p{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.tentang table{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.tentang td{
+    padding: 8px;
+}
+
+/* Form */
+
+form{
+    margin-top: 20px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+form textarea{
+    resize: vertical;
+}
+
+form button{
+    margin-top: 10px;
+}
+
+.profil{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.profil-foto img{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #2e7d32;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profil-data{
+    flex: 1;
+}
